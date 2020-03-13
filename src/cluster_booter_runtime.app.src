@@ -1,0 +1,15 @@
+{application, cluster_booter_runtime,
+ [{description, "Cluster Booter Runtime"},
+  {vsn, "0.5.0"},
+  {registered, []},
+  {mod, {cluster_booter_runtime_app, []}},
+  {applications,
+   [kernel,
+    stdlib
+   ]},
+  {env,[]},
+  {modules, []},
+
+  {licenses, ["Apache 2.0"]},
+  {links, []}
+ ]}.
